@@ -2067,12 +2067,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N5819"
+		(symbol "Diode:B140-E3"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -2086,7 +2085,7 @@
 					)
 				)
 			)
-			(property "Value" "1N5819"
+			(property "Value" "B140-E3"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -2094,7 +2093,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(property "Footprint" "Diode_SMD:D_SMA"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -2103,7 +2102,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(property "Datasheet" "http://www.vishay.com/docs/88946/b120.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2112,7 +2111,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(property "Description" "40V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2130,7 +2129,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?41*"
+			(property "ki_fp_filters" "D*SMA*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2139,7 +2138,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N5819_0_1"
+			(symbol "B140-E3_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -2177,7 +2176,7 @@
 					)
 				)
 			)
-			(symbol "1N5819_1_1"
+			(symbol "B140-E3_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -2373,7 +2372,7 @@
 					(end 11.43 -64.77)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type background)
@@ -3352,6 +3351,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Switching:LM2672M-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3582,7 +3688,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:BC337"
+		(symbol "Transistor_BJT:MMBT3904"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -3599,7 +3705,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC337"
+			(property "Value" "MMBT3904"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -3608,7 +3714,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -3619,7 +3725,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3629,7 +3735,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3647,7 +3753,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3656,7 +3762,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BC337_0_1"
+			(symbol "MMBT3904_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -3693,7 +3799,7 @@
 					)
 				)
 			)
-			(symbol "BC337_1_1"
+			(symbol "MMBT3904_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -3740,7 +3846,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3758,7 +3864,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3776,305 +3882,7 @@
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_FET:BS250"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BS250"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/70209/70209.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "-0.18A Id, -45V Vds, P-Channel MOSFET, TO-92"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "P-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BS250_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BS250_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4373,6 +4181,304 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:IRLML9301"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRLML9301"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/irlml9301pbf.pdf?fileId=5546d462533600a401535668e5e42640"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-3.6A Id, -30V Vds, 64mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel HEXFET MOSFET Logic-Level"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IRLML9301_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRLML9301_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5085,10 +5191,22 @@
 		(uuid "70712479-5bc0-4fce-9e5a-4ea1852c7b26")
 	)
 	(junction
+		(at 246.38 74.422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "734672b0-bd88-40fa-960c-48b6ca7de1ad")
+	)
+	(junction
 		(at 81.534 180.594)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ee719b7-d99d-4d99-9389-445b83591bd2")
+	)
+	(junction
+		(at 254 42.672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acbcf27f-4a4c-4f18-b884-3936e373c9b3")
 	)
 	(junction
 		(at 28.194 21.082)
@@ -5113,12 +5231,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c36596b0-b471-4772-8ef6-8bd155e669ef")
-	)
-	(junction
-		(at 246.38 74.422)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3ff83a9-b187-4406-ae7b-916741249247")
 	)
 	(junction
 		(at 246.38 36.576)
@@ -5165,6 +5277,10 @@
 		(uuid "439a0ebf-2ac3-45f7-ac3b-30568c15eff9")
 	)
 	(no_connect
+		(at 51.054 178.054)
+		(uuid "6a9f74a1-5850-4b5c-9a51-977809122dc0")
+	)
+	(no_connect
 		(at 34.544 23.622)
 		(uuid "8b6c45cd-add7-4bc0-8164-4686ce06b3f5")
 	)
@@ -5173,12 +5289,20 @@
 		(uuid "99a9bb8b-da7f-4c81-9abb-008b8d4b5aa0")
 	)
 	(no_connect
+		(at 51.054 175.514)
+		(uuid "ad3602c8-68b4-47a9-be72-533141b2d4d1")
+	)
+	(no_connect
 		(at 36.068 92.456)
 		(uuid "c8dee07a-517f-43dd-8fc1-f9cfbaf8ed51")
 	)
 	(no_connect
 		(at 34.544 28.702)
 		(uuid "cd12828c-6744-4c16-b219-42dc62b607a4")
+	)
+	(no_connect
+		(at 51.054 180.594)
+		(uuid "dbc94311-8508-49c8-8fe9-834d856d4c43")
 	)
 	(wire
 		(pts
@@ -5572,6 +5696,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 42.672) (xy 254 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6415982c-9d65-4be1-b645-bae6f2d0fab1")
+	)
+	(wire
+		(pts
 			(xy 81.534 180.594) (xy 76.454 180.594)
 		)
 		(stroke
@@ -5842,6 +5976,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.534 189.23) (xy 81.534 188.214)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f41e3c-d1f9-41ae-b471-8365c41a87e4")
+	)
+	(wire
+		(pts
 			(xy 81.534 178.054) (xy 81.534 180.594)
 		)
 		(stroke
@@ -5999,6 +6143,16 @@
 			(type default)
 		)
 		(uuid "f56ee784-a0ab-45c5-9a69-c17cdb2f4f4b")
+	)
+	(wire
+		(pts
+			(xy 228.854 96.774) (xy 232.41 96.774)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f76b69c7-11db-427e-9260-6f2ca9a3684f")
 	)
 	(wire
 		(pts
@@ -6163,6 +6317,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+12 DRIVER"
+		(shape input)
+		(at 254 46.99 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14d2b981-cf32-4d7f-aef6-89b4d2991f78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254 61.5866 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7213,7 +7389,7 @@
 	)
 	(global_label "I2C_3.3"
 		(shape input)
-		(at 242.57 96.774 180)
+		(at 228.854 96.774 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7223,7 +7399,7 @@
 		)
 		(uuid "fad2ec74-8c16-4b79-9f0d-a9b10acd21c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.5091 96.774 0)
+			(at 218.7931 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7525,7 +7701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 229.5652 130.556 0)
 			(effects
 				(font
@@ -7791,7 +7967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 227.0252 158.496 0)
 			(effects
 				(font
@@ -7860,7 +8036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
 			(at 256.54 34.671 0)
 			(effects
 				(font
@@ -7936,7 +8112,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 239.014 126.746 90)
 			(effects
 				(font
@@ -7972,6 +8148,76 @@
 			(project ""
 				(path "/e885152a-5459-434c-9c68-3c460e05664b"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:B140-E3")
+		(at 81.534 184.404 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f4255e1-f81a-4e48-88dd-0fbe0eebb7d4")
+		(property "Reference" "D1"
+			(at 83.82 182.8164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SB140"
+			(at 83.82 185.3564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 77.089 184.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88946/b120.pdf"
+			(at 81.534 184.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"
+			(at 81.534 184.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c4c11e5-4d35-45f0-b1bd-031002beb2f4")
+		)
+		(pin "1"
+			(uuid "48ce72f8-eead-4d1d-a8f6-25e67217a95c")
+		)
+		(instances
+			(project ""
+				(path "/e885152a-5459-434c-9c68-3c460e05664b"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8127,7 +8373,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100uF 25V"
 			(at 45.974 168.7829 0)
 			(effects
 				(font
@@ -8136,7 +8382,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7361-38_AVX-V_HandSolder"
 			(at 41.1988 162.814 0)
 			(effects
 				(font
@@ -8154,7 +8400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "581-TPSV107M025R0100"
 			(at 42.164 166.624 0)
 			(effects
 				(font
@@ -8337,7 +8583,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 197.104 153.416 90)
 			(effects
 				(font
@@ -8373,6 +8619,74 @@
 			(project ""
 				(path "/e885152a-5459-434c-9c68-3c460e05664b"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 237.49 96.774 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3067a96f-ee29-43d8-a79c-11fbd61fd409")
+		(property "Reference" "JP5"
+			(at 237.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED EN"
+			(at 237.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 237.49 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 237.49 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4cefb567-9609-4000-a230-1d720e9e85cb")
+		)
+		(pin "1"
+			(uuid "8b0bdeb0-8417-4333-b846-40e5ba9150a1")
+		)
+		(instances
+			(project "eliografo"
+				(path "/e885152a-5459-434c-9c68-3c460e05664b"
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -8538,7 +8852,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 248.158 32.766 90)
 			(effects
 				(font
@@ -8605,7 +8919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 30.226 56.642 0)
 			(effects
 				(font
@@ -8656,6 +8970,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 243.84 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d2da72b-2b52-4ebb-8915-1f7c895e10e7")
+		(property "Reference" "Q2"
+			(at 248.92 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 248.92 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 248.92 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+			(at 243.84 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 243.84 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6384bb52-4347-4b71-90f7-8587ba69c54b")
+		)
+		(pin "1"
+			(uuid "2f660e78-9a88-4363-ae1c-a8c84a1718f9")
+		)
+		(pin "2"
+			(uuid "9f722742-5f94-4626-9451-2861d3b3f343")
+		)
+		(instances
+			(project ""
+				(path "/e885152a-5459-434c-9c68-3c460e05664b"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 254 96.774 270)
 		(unit 1)
@@ -8681,7 +9071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 254 94.996 90)
 			(effects
 				(font
@@ -8750,7 +9140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 202.6412 157.226 0)
 			(effects
 				(font
@@ -8802,7 +9192,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c4cf631-e94e-4464-bd01-d72c479a1958")
 		(property "Reference" "J9"
-			(at 264.668 150.1139 0)
+			(at 264.16 150.1139 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8810,8 +9200,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
-			(at 264.668 152.6539 0)
+		(property "Value" "Encoder AZI"
+			(at 264.16 152.6539 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8819,7 +9209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 262.128 151.384 0)
 			(effects
 				(font
@@ -8871,25 +9261,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5ee46766-ddc4-44d5-92b4-f46ed2f43cfe")
 		(property "Reference" "L1"
-			(at 89.154 174.244 0)
+			(at 89.154 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "INDUCTOR"
-			(at 89.154 176.784 0)
+		(property "Value" "47uH"
+			(at 89.154 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Axial_L20.3mm_D12.1mm_P7.62mm_Vertical_Vishay_IHA-101"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL6060-XXX"
 			(at 89.154 180.594 0)
 			(effects
 				(font
@@ -8907,8 +9296,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 89.154 180.594 0)
+		(property "Description" "994-LPS6235-473MRC"
+			(at 93.218 167.132 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9088,7 +9477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 68.58 82.55 0)
 			(effects
 				(font
@@ -9223,7 +9612,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "EXTRA ADC"
 			(at 41.656 75.9459 90)
 			(effects
 				(font
@@ -9232,7 +9621,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 36.068 74.676 0)
 			(effects
 				(font
@@ -9291,7 +9680,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "POWER SUPPLY"
 			(at 20.574 145.796 0)
 			(effects
 				(font
@@ -9299,7 +9688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 20.574 152.146 0)
 			(effects
 				(font
@@ -9424,7 +9813,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
+		(property "Value" "ENC ALT DIRECT"
 			(at 120.65 88.9 0)
 			(effects
 				(font
@@ -9432,7 +9821,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 120.65 92.71 0)
 			(effects
 				(font
@@ -9492,7 +9881,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
+		(property "Value" "BATT DIRECT"
 			(at 120.65 91.44 0)
 			(effects
 				(font
@@ -9500,7 +9889,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 120.65 95.25 0)
 			(effects
 				(font
@@ -9674,82 +10063,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC337")
-		(at 243.84 79.502 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d969f12-1d05-419f-ad76-968cec0f358f")
-		(property "Reference" "Q4"
-			(at 249.174 78.2319 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC337"
-			(at 249.174 80.7719 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 248.92 81.407 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
-			(at 243.84 79.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
-			(at 243.84 79.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8c31d51a-dc0c-4f4a-a498-f48298e22b47")
-		)
-		(pin "3"
-			(uuid "661bb2c3-af58-4cce-8fca-e58bbddebb1e")
-		)
-		(pin "1"
-			(uuid "d6de3338-d831-4f7b-aed6-4f5ccc5eec05")
-		)
-		(instances
-			(project "eliografo"
-				(path "/e885152a-5459-434c-9c68-3c460e05664b"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 122.174 171.704 0)
 		(unit 1)
@@ -9844,7 +10157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 241.046 124.714 90)
 			(effects
 				(font
@@ -10175,7 +10488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 241.808 153.162 90)
 			(effects
 				(font
@@ -10290,7 +10603,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8cee5f37-4b71-40d3-b6cf-0d83ac4da198")
 		(property "Reference" "C3"
 			(at 99.6856 182.2449 0)
@@ -10301,7 +10613,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100uF 10V"
 			(at 99.6856 184.7849 0)
 			(effects
 				(font
@@ -10310,7 +10622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W_HandSolder"
 			(at 96.4692 188.214 0)
 			(effects
 				(font
@@ -10328,8 +10640,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 95.504 184.404 0)
+		(property "Description" "581-TPSD107K010R0065"
+			(at 95.504 193.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10445,7 +10757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 172.72 82.55 0)
 			(effects
 				(font
@@ -10516,7 +10828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 228.092 81.28 90)
 			(effects
 				(font
@@ -10552,82 +10864,6 @@
 			(project "eliografo"
 				(path "/e885152a-5459-434c-9c68-3c460e05664b"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BS250")
-		(at 254.254 74.422 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9441f306-1816-43ae-9801-a9ce2ebb7c8b")
-		(property "Reference" "Q3"
-			(at 260.096 75.6921 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BS250"
-			(at 260.096 73.1521 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 259.334 72.517 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/70209/70209.pdf"
-			(at 259.334 70.612 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-0.18A Id, -45V Vds, P-Channel MOSFET, TO-92"
-			(at 254.254 74.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b31bcf48-04c2-4010-9641-37784b5c4c75")
-		)
-		(pin "1"
-			(uuid "ab49d138-0c84-4ead-8666-c83ca3f53980")
-		)
-		(pin "3"
-			(uuid "04cd668e-fe49-45e1-842a-ae0a68e3d946")
-		)
-		(instances
-			(project ""
-				(path "/e885152a-5459-434c-9c68-3c460e05664b"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -10907,7 +11143,7 @@
 		(fields_autoplaced yes)
 		(uuid "99949c04-48bd-4806-8442-e9d2969d5fea")
 		(property "Reference" "J8"
-			(at 263.906 121.6659 0)
+			(at 264.16 121.6659 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10915,8 +11151,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
-			(at 263.906 124.2059 0)
+		(property "Value" "Encoder ALT"
+			(at 264.16 124.2059 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10924,7 +11160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 261.366 122.936 0)
 			(effects
 				(font
@@ -10996,7 +11232,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 248.158 70.612 90)
 			(effects
 				(font
@@ -11065,7 +11301,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 197.104 144.526 90)
 			(effects
 				(font
@@ -11125,7 +11361,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "Driver PSU"
 			(at 271.526 46.4819 0)
 			(effects
 				(font
@@ -11134,7 +11370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 268.986 45.212 0)
 			(effects
 				(font
@@ -11392,6 +11628,73 @@
 			(project "eliografo"
 				(path "/e885152a-5459-434c-9c68-3c460e05664b"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 39.624 118.364 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac25351c-7420-45f1-b031-fce43b1d418a")
+		(property "Reference" "H3"
+			(at 42.926 115.8239 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 42.926 118.3639 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 39.624 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.624 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 39.624 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8654473-603d-4043-af4b-252532ff3b71")
+		)
+		(instances
+			(project "eliografo"
+				(path "/e885152a-5459-434c-9c68-3c460e05664b"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -11689,7 +11992,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 246.38 96.774 0)
 			(effects
 				(font
@@ -11735,6 +12038,73 @@
 			(project ""
 				(path "/e885152a-5459-434c-9c68-3c460e05664b"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 33.528 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc88f2f4-4793-4ce2-95b5-0bb3789e80f0")
+		(property "Reference" "H2"
+			(at 36.83 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 36.83 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 33.528 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.528 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 33.528 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "848e9620-88c5-460e-8cf4-0db5148f6bd0")
+		)
+		(instances
+			(project "eliografo"
+				(path "/e885152a-5459-434c-9c68-3c460e05664b"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -11932,75 +12302,6 @@
 			(project "eliografo"
 				(path "/e885152a-5459-434c-9c68-3c460e05664b"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5819")
-		(at 81.534 184.404 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c017f922-726c-4ba9-bc06-2a974be36e74")
-		(property "Reference" "D1"
-			(at 84.074 182.8164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5819"
-			(at 84.074 185.3564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 77.089 184.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 81.534 184.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.534 184.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "76305fc7-8a90-40a3-b831-8e43db55fd01")
-		)
-		(pin "2"
-			(uuid "3b954bb0-8b9b-48da-9b86-2215283bb3bc")
-		)
-		(instances
-			(project ""
-				(path "/e885152a-5459-434c-9c68-3c460e05664b"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12207,6 +12508,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 32.004 132.842 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cac91d7e-c7f8-4978-8144-0aa157513ffc")
+		(property "Reference" "H5"
+			(at 35.306 130.3019 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 35.306 132.8419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 32.004 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 32.004 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 32.004 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7dc475f-5369-4b2b-bfe1-e310d1ae337b")
+		)
+		(instances
+			(project "eliografo"
+				(path "/e885152a-5459-434c-9c68-3c460e05664b"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
 		(at 42.164 28.702 180)
 		(unit 1)
@@ -12217,22 +12585,22 @@
 		(fields_autoplaced yes)
 		(uuid "cb593331-f874-4e4d-99cb-54dd43600887")
 		(property "Reference" "J5"
-			(at 40.894 14.732 0)
+			(at 40.894 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_02x06_Odd_Even"
-			(at 40.894 17.272 0)
+		(property "Value" "MotorDriver"
+			(at 40.894 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x06_P2.54mm_Vertical"
 			(at 42.164 28.702 0)
 			(effects
 				(font
@@ -12353,6 +12721,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12551,6 +12920,149 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 38.862 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4db6b52-a650-4dbc-bfc2-8af5cd82cbcb")
+		(property "Reference" "H6"
+			(at 42.164 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 42.164 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 38.862 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.862 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 38.862 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e615f8f7-2a80-46dc-b6f4-37b5601135d3")
+		)
+		(instances
+			(project "eliografo"
+				(path "/e885152a-5459-434c-9c68-3c460e05664b"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 243.84 79.502 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d87306c8-81e2-4ef9-bec0-1c6f5d507759")
+		(property "Reference" "Q4"
+			(at 248.92 78.2319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 248.92 80.7719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 248.92 81.407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+			(at 243.84 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 243.84 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ac754d8-73ed-4148-8a51-f2e3386fc2a2")
+		)
+		(pin "3"
+			(uuid "66244501-9709-4a04-b81b-ff3a4ea7eac8")
+		)
+		(pin "1"
+			(uuid "f5ade295-0ca7-4abe-961f-6148575169f6")
+		)
+		(instances
+			(project ""
+				(path "/e885152a-5459-434c-9c68-3c460e05664b"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 228.092 43.18 90)
 		(unit 1)
@@ -12576,7 +13088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 228.092 44.958 90)
 			(effects
 				(font
@@ -12831,7 +13343,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
+		(property "Value" "ENC AZI DIRECT"
 			(at 120.65 86.36 0)
 			(effects
 				(font
@@ -12839,7 +13351,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 120.65 90.17 0)
 			(effects
 				(font
@@ -12876,6 +13388,83 @@
 			(project ""
 				(path "/e885152a-5459-434c-9c68-3c460e05664b"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML9301")
+		(at 254.254 74.422 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de4cbb75-b917-45c8-bda2-11b7ca707eaa")
+		(property "Reference" "Q5"
+			(at 260.096 73.1519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML9301"
+			(at 260.096 75.6919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 259.334 72.517 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml9301pbf.pdf?fileId=5546d462533600a401535668e5e42640"
+			(at 259.334 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.6A Id, -30V Vds, 64mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 254.254 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bfac5f32-d22b-44bb-86f3-a60e1aa230de")
+		)
+		(pin "1"
+			(uuid "f5a40d81-3ce9-4643-898a-4021b24c9e08")
+		)
+		(pin "2"
+			(uuid "2e2fabb3-5d34-464d-8c1d-0b4df276493f")
+		)
+		(instances
+			(project ""
+				(path "/e885152a-5459-434c-9c68-3c460e05664b"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -12972,7 +13561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 84.074 174.5488 0)
 			(effects
 				(font
@@ -13096,7 +13685,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x10"
+		(property "Value" "ADC"
 			(at 30.988 76.2 0)
 			(effects
 				(font
@@ -13104,7 +13693,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 30.988 92.456 0)
 			(effects
 				(font
@@ -13171,17 +13760,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC337")
-		(at 243.84 43.18 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 46.228 118.364 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ef96bf9b-7c1c-405b-a4e3-8799857d7959")
-		(property "Reference" "Q2"
-			(at 249.174 41.9099 0)
+		(uuid "ee460007-19f9-4ac3-8b23-87c4c1f08497")
+		(property "Reference" "H4"
+			(at 49.53 115.8239 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13189,8 +13778,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC337"
-			(at 249.174 44.4499 0)
+		(property "Value" "MountingHole_Pad"
+			(at 49.53 118.3639 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13198,29 +13787,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 248.92 45.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
-			(at 243.84 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
-			(at 243.84 43.18 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 46.228 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13228,19 +13796,31 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "332f32ff-1ddb-441e-adb8-907446e68858")
+		(property "Datasheet" "~"
+			(at 46.228 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "a12fb880-110a-4a5d-b9bf-86cdef168efa")
+		(property "Description" "Mounting Hole with connection"
+			(at 46.228 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "6d760553-96c1-44bc-b4fc-30d018f9ae71")
+			(uuid "25984502-829d-496d-9a90-a632e9a00612")
 		)
 		(instances
-			(project ""
+			(project "eliografo"
 				(path "/e885152a-5459-434c-9c68-3c460e05664b"
-					(reference "Q2")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -13528,7 +14108,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_3_Bridged12"
+		(property "Value" "I2C ENABLE"
 			(at 113.538 82.55 0)
 			(effects
 				(font
@@ -13536,7 +14116,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 113.538 76.454 0)
 			(effects
 				(font
@@ -13672,7 +14252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 68.58 58.42 0)
 			(effects
 				(font
@@ -13815,7 +14395,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 239.776 155.194 90)
 			(effects
 				(font
@@ -13858,7 +14438,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.534 188.214 0)
+		(at 81.534 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13867,7 +14447,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb2a0fc4-a4c7-4c1a-be6a-a6a5124c87b1")
 		(property "Reference" "#PWR0137"
-			(at 81.534 194.564 0)
+			(at 81.534 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13876,7 +14456,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 84.074 189.4839 0)
+			(at 84.074 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13885,7 +14465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.534 188.214 0)
+			(at 81.534 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13894,7 +14474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.534 188.214 0)
+			(at 81.534 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13903,7 +14483,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.534 188.214 0)
+			(at 81.534 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
